@@ -27,7 +27,7 @@ public class BookStorePageTest extends BaseTest {
         final BookStorePage bookStorePage = new BookStorePage(driver);
         driver.get(baseUrl + url);
         bookStorePage.clickOnBookByIsbn(isbn);
-        assertEquals(bookStorePage.getTitle(), "Learning JavaScript Design Patterns");
+        assertEquals(bookStorePage.getTitle(), "Git Pocket Guide");
     }
 
     @Test
